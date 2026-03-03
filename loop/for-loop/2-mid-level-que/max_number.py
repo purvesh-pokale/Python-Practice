@@ -3,8 +3,8 @@ lst=[20,63,16,38,46,27,49]
 max_num =lst[0]           #assum it is max number because we need somthing to compare with other number
 
 for i in lst:
-    if(i>max_num):
-        max_num=i
+    if(i>max_num):        #compare with list of element
+        max_num=i         #we assing 'i' to max_num if any number is greater than 'i' than agan compare it to rest of the element
 print("max number-",max_num)
 
 '''
