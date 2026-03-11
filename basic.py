@@ -42,3 +42,23 @@ It looks at the object, checks its methods, and "binds" the call to the correct 
 The Benefit: This allows for Polymorphism. You can have different objects (like a Circle and a Square) that both have a .draw() method, 
 and Python will figure out which one to use based on the object's identity at runtime.
 '''
+
+
+#Keyword
+'''
+two ways to get the list of 
+1. import keyword
+   print(keyword.kwlist)
+2. help("keyword")
+'''
+help("keyword")
+
+'''
+False      await      else       import     pass
+None       break      except     in         raise
+True       class      finally    is         return
+and        continue   for        lambda     try
+as         def        from       nonlocal   while
+assert     del        global     not        with
+async      elif       if         or         yield
+'''
