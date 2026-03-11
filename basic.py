@@ -25,3 +25,20 @@ Line-by-line execution: The PVM executes the bytecode one instruction at a time,
 rather than loading a massive pre-compiled binary into memory all at once.
 
 '''
+
+'''
+Dynamic Typing:-
+Dynamic typing refers to what a variable is. In Python, you don't have to declare if a variable is a number, a string, or a list. 
+The "type" is associated with the value, not the variable name.
+'''
+'''
+Dynamic Binding
+Dynamic binding (also known as late binding) refers to which piece of code gets called. 
+It's about how Python links a name (like a function or method) to an actual implementation at the very last moment.
+
+How it works: Python doesn't decide which method to run until it reaches that specific line of code. 
+It looks at the object, checks its methods, and "binds" the call to the correct function right then and there.
+
+The Benefit: This allows for Polymorphism. You can have different objects (like a Circle and a Square) that both have a .draw() method, 
+and Python will figure out which one to use based on the object's identity at runtime.
+'''
