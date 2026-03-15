@@ -56,3 +56,16 @@ print("Enter m")
 print(f"The multiplication table of {n} is")
 for i in range(1,m+1):
     print(f"{i}*{n}={i*n}")
+
+'''
+6
+Enter n
+5
+Enter m
+The multiplication table of 6 is
+1*6=6
+2*6=12
+3*6=18
+4*6=24
+5*6=30
+'''
