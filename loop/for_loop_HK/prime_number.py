@@ -33,3 +33,22 @@ Explanation 1
 
 For the given number the list of special numbers is [2,3, 5, 7, 11, 13, 17, 19, 23, 29]
 '''
+
+n = int(input("Enter the number:"))
+
+for num in range(2, n + 1):
+    prime = True
+    
+    for i in range(2, num):
+        if num % i == 0:
+            prime = False
+            break
+    
+    if prime:
+        print(num, end=" ")
+
+'''
+o/p
+Enter the number:11
+2 3 5 7 11
+'''
