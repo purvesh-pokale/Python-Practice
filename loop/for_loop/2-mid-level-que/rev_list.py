@@ -7,5 +7,5 @@ for i in list1:
 print("Reverse order list :",list2)
 '''
 o/p
-
+Reverse order list : [60, 50, 40, 30, 20]
 '''
