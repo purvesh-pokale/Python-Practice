@@ -126,7 +126,43 @@ o/p
 str1="purvesh"
 
 for i in str1[::-1]:
-    print(i)
+    print(i,end=" ")
+print()
+'''
+o/p
+h s e v r u p
+'''
+
+#10  print number from 1 to 5
+# write the program to print number from 1 to 5 using a for loop
+
+for i in range(1 , 6):
+    print(i,end=" ")
 print()
 
+#11 print squares of number from 1 to 5
 
+for i in range (1 , 6):
+    print(i**2,end=" ")
+#   print(i*I,end=" ")
+print()
+'''
+o/p
+1 4 9 16 25 
+'''
+
+#12 print Even number from 1 to 10
+
+for i in range(1,11):
+    if i%2 == 0:
+        print(i)
+
+print()
+'''
+o/p
+2
+4
+6
+8
+10
+'''  
