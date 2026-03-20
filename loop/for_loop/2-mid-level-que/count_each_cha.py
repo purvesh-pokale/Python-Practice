@@ -1,4 +1,4 @@
-# count occurence of each character in string
+
 # Write a program to count occurrence of each character in the word "programing"
 # input : "programing"
 # Expected output
