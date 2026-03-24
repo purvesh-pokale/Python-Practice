@@ -39,8 +39,24 @@ while i<=10:
         print(i)
 
     i+=1
+print()
 
+#Calculate the product of number from 1 to 5
+num= int(input("Eter the number :"))
+i=1
+pro=1
+while i<=num:
+    pro*=i     #pro=pro*i
 
+    i+=1
+
+print(f"product of number from 1 to {num} is {pro}")
+
+'''
+o/p
+Eter the number :12
+479001600
+'''
 
 
 
