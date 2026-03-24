@@ -9,8 +9,9 @@ print()
 #display number from 10-1
 i=10
 while(i>=1):
-    print(i)
+    print(i,end=" ")
     i-=1
+
 print()
 
 #display number from 1 - 30 divisible by 3
@@ -21,7 +22,14 @@ while i<=30:
     i+=1
 print()
 
+# print cubes of number from 1 to 5
+i=1
+while i<=5:
+    print(f"{i} = {i*i*i}")
 
+    i+=1
+
+print()
 
 
 
