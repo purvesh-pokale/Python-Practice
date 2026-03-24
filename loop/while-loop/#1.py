@@ -55,7 +55,8 @@ print(f"product of number from 1 to {num} is {pro}")
 '''
 o/p
 Eter the number :12
-479001600
+Eter the number :12
+product of number from 1 to 12 is 479001600
 '''
 
 
