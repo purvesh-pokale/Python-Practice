@@ -44,7 +44,7 @@ print()
 #Calculate the product of number from 1 to 5
 num= int(input("Eter the number :"))
 i=1
-pro=1
+pro=1 
 while i<=num:
     pro*=i     #pro=pro*i
 
