@@ -25,13 +25,20 @@ print()
 # print cubes of number from 1 to 5
 i=1
 while i<=5:
-    print(f"{i} = {i*i*i}")
+    print(f"{i} = {i**3}")
 
     i+=1
 
 print()
 
+#print Odd number from 1 to 10
+i = 1
+print("Odd number:")
+while i<=10:
+    if i%2 != 0:
+        print(i)
 
+    i+=1
 
 
 
