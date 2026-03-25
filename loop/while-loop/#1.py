@@ -51,7 +51,7 @@ while i<=num:
     i+=1
 
 print(f"product of number from 1 to {num} is {pro}")
-
+print()
 '''
 o/p
 Eter the number :12
@@ -59,8 +59,24 @@ Eter the number :12
 product of number from 1 to 12 is 479001600
 '''
 
+#write a program to print the first 5 mutltiples of 3
+mul=3
+i=1
 
+while i<=5:
+    print(mul)
+    mul+=3
 
+    i+=1
+
+'''
+o/p
+3
+6
+9
+12
+15
+'''
 
 
 
