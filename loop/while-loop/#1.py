@@ -62,12 +62,31 @@ product of number from 1 to 12 is 479001600
 #write a program to print the first 5 mutltiples of 3
 mul=3
 i=1
-
+#1
 while i<=5:
     print(mul)
     mul+=3
 
     i+=1
+print()
+
+#2
+mul = 3
+i = 1
+
+while i<=5:
+    a=mul*i
+    print(a)
+
+    i+=1
+print()
+
+#3
+i = 1
+while i<=5:
+    print(i*3)
+
+    i+=1 
 
 '''
 o/p
