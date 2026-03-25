@@ -9,12 +9,12 @@ words = s.split()
 # i=purvesh
 
 for i in words:
-    l = len(i) - 1
+    l = len(i) - 1      # lenth of word to apply the indexing
 
     while l>=0:
-        print(i[l], end= " ")
+        print(i[l], end= " ")   #print the char i[4] means last element
 
-        l -= 1
+        l -= 1                  #ex l= 4 here l=4-1=>3 , l=3-1=>2 ....
     
 '''
 o/p
