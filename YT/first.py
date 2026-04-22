@@ -1,0 +1,1 @@
+print("Namesate, we are learning python.")
