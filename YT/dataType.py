@@ -105,3 +105,52 @@ print(colours)
 colours[2:4]=["white","peach"]
 print(colours)
 #o/p :- ['black', 'white', 'white', 'peach', 'pink']
+
+#Mutable 
+#modify using indexing
+l1 = [10,20,30,40,50]
+l1[2]=3
+print(l1)
+
+l1[1:4]=[2,3,4]
+print(l1)
+
+# Nested list
+l2 = [10,20,30,[40,50],60,70,[80,90,[100,110]]]
+#print 80,70,100
+
+print(l2[6][0])    #80
+print(l2[5])       #70
+print(l2[6][2][0]) #100
+
+
+#Method of list
+#.append() : add single elemeant in the last of the elemaent
+names =["purvesh","shrushti","om","aman"]
+names.append("hari")
+print(names)
+
+#.extend() : add list to another list 
+l1 = [1,2,3,4]
+l2 = [5,6,7,8]
+l1.extend(l2)
+print(l1)
+
+#.insert(): adds element at specific position
+num =[1,2,4,5,6]
+num.insert(2,3)
+print(num)
+
+#clear(): empties the list
+num =[1,2,3,4,5]
+num.clear()
+print(num)
+
+#pop(): deletes element by index value
+colours =["black","blue","red","yellow","pink"]
+colours.pop(3)
+print(colours)
+
+# remove() : deletes elements by giving element itself
+colours.remove("red")
+print(colours)
