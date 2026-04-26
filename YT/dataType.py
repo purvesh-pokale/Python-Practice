@@ -37,6 +37,9 @@ print(type(st2))
 <class 'str'>
 <class 'str'>
 '''
+
+#####################################################
+
 #LIST 
 
 marks = [24,35,42,44,23,37]
@@ -154,3 +157,87 @@ print(colours)
 # remove() : deletes elements by giving element itself
 colours.remove("red")
 print(colours)
+print("-"*50)
+
+############################################################################
+
+
+#String:-
+
+char = 'a'
+print(char)
+print(type(char))
+
+word = "purvesh"
+print(word)
+print(len(word))
+
+word2 = "I am from Amravati"
+print(word2)
+print(len(word2))
+
+#Accessing using indexing & slicing
+
+#indexing
+word = "New York"
+print(word[4])
+
+#slicing
+print(word[2:6])  #o/p: w Yo
+
+#step slicing
+print(word[::2])  #o/p: NwYr
+
+#String is immutable
+
+#Concatenation: joining of string
+first_name = "Purvesh"
+last_name = "Pokale"
+
+full_name = first_name + " " + last_name
+print(full_name)
+
+
+#Method of String
+
+#case conversion
+#.lower()
+country = "INDIA"
+print(country.lower())
+
+#.upper()
+country = "india"
+print(country.upper())
+
+#.capitalize()
+country = "india"
+print(country.capitalize())
+
+
+#countent checker
+#.isapha()
+s = "purvesh"
+print(s.isalpha())
+
+#.isdigit()
+s2= "2003"
+print(s2.isdigit())
+
+#.isalnum() :combination of both not allows spical character
+s3 = "purvesh2003"
+print(s3.isalnum())
+
+
+#.split() : it returns list of subtring according to the separato provided
+#syntax : .split(sep =" ")  by default split takes space as separetor if we dident put any thinf in " " this
+#         .split()
+
+data = "Hello all I live in Pune"
+print(data.split())
+
+info = "hello, my, name, is. purvesh"
+print(info.split(sep=","))
+
+#.join()
+data =["hello","all","good","afternoon"]
+print("-".join(data))
