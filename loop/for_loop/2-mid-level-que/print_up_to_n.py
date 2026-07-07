@@ -1,4 +1,4 @@
-#Print natural number up to n.
+#Print natural number up to n  in frward and reverse order.
 
 n = int(input("Enter the number :"))
 
@@ -15,4 +15,22 @@ Enter the number :5
 4
 5
 
+'''
+
+
+n = int(input("Enter the number :"))
+
+for i in range(n,-1,-1):
+    print(i)
+
+
+'''
+o/p
+Enter the number :5
+5
+4
+3
+2
+1
+0
 '''
