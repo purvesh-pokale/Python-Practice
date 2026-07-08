@@ -11,6 +11,6 @@ print(b)
 
 '''
 o/p
-
+Enter the string :purvesh
 hsevrup
 '''
