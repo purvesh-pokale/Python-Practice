@@ -11,3 +11,40 @@ print(avg(5,5,5))
 o/p:
 5.0
 '''
+
+
+#WAF to print the length of a list. ( list is the parameter)
+
+
+cities = ["delhi", "gurgaon", "noida", "pune", "mumbai", "chennai"]
+heroes = ["thor", "ironman", "captain america", "shaktiman"]
+
+def print_len(list):
+    print(len(list))
+
+print_len(cities)
+print_len(heroes)
+
+'''
+0/p
+6
+4
+'''
+
+def print_len(lst):
+    print(len(lst))
+
+a=input("Enter the list to find it's length :").split()
+
+print_len(a)
+
+'''
+Enter the list to find it's length :65 34 5
+3
+'''
+
+#WAF to print the elements of a list in a single line. ( list is the parameter)
+
+#WAF to find the factorial of n. (n is the parameter)
+
+#WAF to convert USD to INR.
