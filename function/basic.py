@@ -31,6 +31,7 @@ print_len(heroes)
 4
 '''
 
+'''
 def print_len(lst):
     print(len(lst))
 
@@ -38,12 +39,25 @@ a=input("Enter the list to find it's length :").split()
 
 print_len(a)
 
-'''
+o/p:
 Enter the list to find it's length :65 34 5
 3
+
+
 '''
 
 #WAF to print the elements of a list in a single line. ( list is the parameter)
+
+def print_list(lst):
+    for i in lst:
+        print(i,end= " ")
+
+print_list(cities)
+
+'''
+o/p
+delhi gurgaon noida pune mumbai chennai
+'''
 
 #WAF to find the factorial of n. (n is the parameter)
 
