@@ -53,12 +53,30 @@ def print_list(lst):
         print(i,end= " ")
 
 print_list(cities)
+print()
 
 '''
 o/p
 delhi gurgaon noida pune mumbai chennai
 '''
 
+'''
 #WAF to find the factorial of n. (n is the parameter)
+
+def print_fact(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact *=i
+    return(fact)
+
+num = int(input("Enter the number to find factorial : "))
+
+print(print_fact(num))
+
+o/p:
+
+Enter the number to find factorial : 4
+24
+'''
 
 #WAF to convert USD to INR.
