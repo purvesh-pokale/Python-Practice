@@ -80,3 +80,26 @@ Enter the number to find factorial : 4
 '''
 
 #WAF to convert USD to INR.
+
+
+#WAR to check even odd number
+
+def check_even_odd(n):
+    if n % 2 == 0:
+        print("Even number")
+
+    else:
+        print("Odd number")
+
+num = int(input("Enter the number :"))
+
+check_even_odd(num)
+
+'''
+o/p
+Enter the number :33
+Odd number
+
+Enter the number :34
+Even number
+'''
